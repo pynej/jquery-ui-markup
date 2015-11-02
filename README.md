@@ -13,7 +13,7 @@ Specify the interaction, widget or effect through the `data-ui` attribute and th
 
 ## Examples
 
-### Dialog
+### Dialog (On `button` of `a` click)
 
 ```html
 <button class="button button-shop-getaquote" data-ui="dialog" data-ui-target=".plainSquareForm" data-ui-title="Contact Us" data-ui-model="true" data-ui-resizable="false" data-ui-width="auto"></button>
