@@ -16,11 +16,12 @@ Specify the interaction, widget or effect through the `data-ui` attribute and th
 ### Dialog
 
 ```html
+<button class="button button-shop-getaquote" data-ui="dialog" data-ui-target=".plainSquareForm" data-ui-title="Contact Us" data-ui-model="true" data-ui-resizable="false" data-ui-width="auto"></button>
+<div class="hidden plainSquareForm">My Dialog Contents</div>
 ```
 
 ### Datepicker
-<button class="button button-shop-getaquote" data-ui="dialog" data-ui-target=".plainSquareForm" data-ui-title="Contact Us" data-ui-model="true" data-ui-resizable="false" data-ui-width="auto"></button>
-<div class="hidden plainSquareForm">My Dialog Contents</div>
+
 ```html
 <p>Date: <input type="text" data-ui="datepicker" /></p>
 ```
